@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>LSPDFR ELITE STUDIO</title>
+<link rel="stylesheet" href="style.css">
+<script src="/socket.io/socket.io.js"></script>
+</head>
+<body>
+<h1>LSPDFR ELITE STUDIO</h1>
+
+<div class="box">
+<h3>Реєстрація</h3>
+<input id="rEmail" placeholder="Email">
+<input id="rPass" type="password" placeholder="Пароль">
+<button onclick="register()">OK</button>
+</div>
+
+<div class="box">
+<h3>Логін</h3>
+<input id="lEmail" placeholder="Email">
+<input id="lPass" type="password">
+<button onclick="login()">Увійти</button>
+</div>
+
+<div class="box">
+<h3>24/7 Підтримка</h3>
+<div id="chat"></div>
+<input id="msg"><button onclick="send()">Send</button>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
